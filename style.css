@@ -75,10 +75,10 @@ body
 {
     font-size: 25px;
     color: #094b65;
-    padding: 7px 5px;
-    border-radius: 20px;
+    padding: 2px 5px;
+    border-radius: 10px;
     font-weight: 600;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Teko', sans-serif;
 }
 .menu-list li a:hover,
@@ -183,7 +183,7 @@ section #text span
 
     text-decoration: none;
     display: inline-block;
-    padding: 8px 15px;
+    padding: 4px 15px;
     background: rgb(158, 158, 149);
     color:#094b65;
     font-size: 15px;
@@ -198,7 +198,7 @@ section #text span
 #btntext
 {
 
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
 }
 #contractaddress
