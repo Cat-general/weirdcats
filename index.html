@@ -1,0 +1,493 @@
+<html>
+<head>
+    <title>Cate Army</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel="shortcut icon" type="image/png" href="images/catearmylogo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    
+    
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="content">
+    <div class="logo"><a href="#catearmy">CATEARMY</a></div>
+    <ul class="menu-list">
+      <div class="icon cancel-btn">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <li><a class="active" href="#top" id="navhome">Home</a></li>
+      <li><a href="#catecoin">CATECOIN</a></li>
+      <li><a href="#catpay">CATPAY</a></li>
+      <li><a href="#nft">NFT</a></li>
+      <li><a href="#burn">BURN!</a></li>
+      
+    </ul>
+    <div class="icon menu-btn">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    </div>
+</nav>
+
+<script>
+  const navbar = document.querySelector(".navbar");
+  const menu = document.querySelector(".menu-list");
+  const menuBtn = document.querySelector(".menu-btn");
+  const cancelBtn = document.querySelector(".cancel-btn");
+  menuBtn.onclick = ()=>{
+    menu.classList.add("active");
+    menuBtn.classList.add("hide");
+  }
+  cancelBtn.onclick = ()=>{
+    menu.classList.remove("active");
+    menuBtn.classList.remove("hide");
+  }
+  window.onscroll = ()=>{
+    this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+  }
+</script>
+
+  <section id="home">
+    <img src="images/logo.png" id="logo1">
+    <img src="images/back.png" id="back">
+    <img src="images/mid.png" id="mid">
+    <img src="images/front.png" id="front">
+
+
+    <div>
+    <a id="btn">CATECOIN <h1 id="btntext">Your community based Cat-themed utility token</h1></a>
+  </div>
+    
+  </section>
+
+
+  <script>
+    
+    let logo1 = document.getElementById('logo1');
+    let back = document.getElementById('back');
+    let mid = document.getElementById('mid');
+    let front = document.getElementById('front');
+    let btn = document.getElementById('btn');
+
+    window.addEventListener('scroll', function(){
+      let value = window.scrollY;
+
+      
+      logo1.style.top = value * 0.4 + 'px';
+      btn.style.marginTop = value * -0.5 + 'px';
+      mid.style.top = value * 0.25 + 'px';
+      back.style.top = value * 0.4 + 'px';
+  
+    }
+    
+    )
+  </script>
+
+
+<!-----------cateaarmy--------------->
+<section id="mainsection">
+  <section id="catearmy">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+      
+      <h4 class="aboutus">CATEARMY</h4>
+    </div>
+  
+    
+    <div class="col-md-6">
+      <h1 class="aboutus1">Catearmy is a community formed around the Catecoin project. Holders with a strong belief in the Catecoin are part of the Catecoin army.</h1>
+      <h1 class="aboutus2">This website was created to unite Catearmy and help Catecoin become more popular and accessible to the masses.
+      </h1>
+  
+        <h1 class="aboutus2">We will also create burn activities for Catecoin and Catpay tokens to make them more valuable, which will help their price reach greater heights.
+        </h1>
+
+        <h1 class="aboutus2">
+        </h1>
+
+       
+  
+        <h1 class="aboutus3">Catecoin to the Moon!</h1>
+        <h4 class="aboutus4">- Catearmy</h4>
+        <div class="container">
+          <div class="row">
+          <div class="col-md-12">
+            <a href="#nft" ><button class="nftbutton">MINT CAT BURN NFTS</button></a>
+            
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+      <div class="buttons">
+        <img src="images/catearmylogo.png" class="aboutimage">
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  </section>
+ 
+
+<!-----------NFT--------------->
+
+  <section id="nft">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+      <h4 class="nft1">CATEARMY NFT</h4>
+    </div>
+      
+    <div class="col-md-12" sty>
+      <div class="rmbkgbsc">
+        <h1 class="nftedition">WEIRD CATS</h1>
+      </div>
+
+
+      <div class="nftbkg1bsc">
+        <div class="container">
+          <div class="row">
+        <div class="col-md-6">
+          <h1 class="nft1bsc">Weird-looking cats formed an army to live in a world where dogs predominated. Now that their number continues to grow, the cats have a chance to fight back and conquer the world! Adopt your very own weird-looking cats and join our community. Let's take over the world by adopting 10,000 unique Weird Cat soldiers! </h1>
+          <h1 class="nft2">Weird Cats was created with the aim of buying back and burning Catecoin tokens with the profit this collection can earn. It also aims to help Catecoin gain new audiences from other platforms.</h1>
+          <h1 class="nft2">The community can also trade their Minted NFTs at OpenSea, where they can gain profit. </h1>
+          <h1 class="nft2"></h1>
+          <h1 class="nft4">MINTING COST : 0.0035BNB (CURRENT)</h1>
+          <h1 class="nft4bsc"> NEXT MINT #5001-10,000 COST : 0.008BNB </h1>
+
+          
+            
+          <div id="mint-button-container"></div> 
+          <div id="mint-counter"></div>                
+            <h1 class="nft4"> You can now help with burning Catecoins with your spare BNB.</h1>
+            <h1 class="nft5">VISIT CATEARMY AND MIXED CATS AT:</h1>
+      <h1 class="nft4x">| <a href="https://opensea.io/collection/weird-cats-official">Opensea.io</a>  | <a href="https://twitter.com/catearmygeneral">Twitter.com</a> |</h1>
+</div>
+      <div class="col-md-6">
+        <img src="images/catsample.gif" class="nftimagebsc">
+      </div>
+        
+      </div>
+    </div>
+    </div>
+
+    <div class="col-md-12">
+      <h1 class="nftnote">Note: This collection was created by Catearmy. 80% of the profit from minting and half of the royalties from trading will be used to burn Catecoin or Catpay. This collection is not directly connected to Catecoin developers, teams, or projects, and so these NFTs cannot be used in any of their products.
+      </h1>
+    </div>
+  </section>
+  <script>
+    window.ownerId = "0xc18Bbe56e9bFd63dCF1609288e855B9974db823B"
+    window.collectionId = "FEuaZe87204iyOU89Cao"
+</script>
+<script type="module" src="https://storage.googleapis.com/scriptslmt/0.1.3/eth.js"></script>
+<link rel="stylesheet" href="https://storage.googleapis.com/scriptslmt/0.1.3/eth.css">
+
+ 
+
+<!-----------cate--------------->
+<section id="mainsection">
+  <section id="catecoin">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+      
+      <h4 class="aboutus">CATECOIN</h4>
+    </div>
+  
+    
+    <div class="col-md-6">
+      <h1 class="aboutus1">Catecoin is a cat-themed meme coin that is designed to offer the holder a host of benefits that other meme coins don't have.  </h1>
+      <h1 class="aboutus2">Catecoin is currently the only memecoin with multiple utilities. One of Catecoin's top priorities is the security and convenience that their Catecoin wallet provides.
+      </h1>
+  
+        <h1 class="aboutus2">Investors can earn passively through Catecoin's "Hold to Earn" and "Staking and Earn" programs. With reflection embedded in Cates contract, a percentage of the trading transaction will be given to its holders. While long-term investors can enjoy 15% APY by staking their tokens.
+        </h1>
+
+        <h1 class="aboutus2">Catecoin also offers a "Play to Earn" game named Rise of Cats where gamer can enjoy their time playing while earning multiple rewards.
+        </h1>
+
+       
+  
+        <h1 class="aboutus3">0xE4FAE3Faa8300810C835970b9187c268f55D998F</h1>
+        <h4 class="aboutus4">-CATE Contract Address</h4>
+        <div class="container">
+          <div class="row">
+          <div class="col-md-12">
+            <p><button onclick="AdvancedCopy()" class="cabtn1">COPY CONTRACT ADDRESS</button></p>
+            
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+      <div class="buttons">
+        <img src="images/catejump.png" class="aboutimage">
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+<script>
+  function AdvancedCopy(){
+       //the text that is to be copied to the clipboard
+       var theText = '0xE4FAE3Faa8300810C835970b9187c268f55D998F';
+   
+       //create our hidden div element
+       var hiddenCopy = document.createElement('div');
+       //set the innerHTML of the div
+       hiddenCopy.innerHTML = theText;
+       //set the position to be absolute and off the screen
+       hiddenCopy.style.position = 'absolute';
+       hiddenCopy.style.left = '-9999px';
+   
+       //check and see if the user had a text selection range
+       var currentRange;
+       if(document.getSelection().rangeCount > 0)
+       {
+            //the user has a text selection range, store it
+            currentRange = document.getSelection().getRangeAt(0);
+            //remove the current selection
+            window.getSelection().removeRange(currentRange);
+       }
+       else
+       {
+            //they didn't have anything selected
+            currentRange = false;
+       }
+   
+       //append the div to the body
+       document.body.appendChild(hiddenCopy);
+       //create a selection range
+       var CopyRange = document.createRange();
+       //set the copy range to be the hidden div
+       CopyRange.selectNode(hiddenCopy);
+       //add the copy range
+       window.getSelection().addRange(CopyRange);
+   
+       //since not all browsers support this, use a try block
+       try
+       {
+            //copy the text
+            document.execCommand('copy');
+       }
+       catch(err)
+       {
+            window.alert("Your Browser Doesn't support this! Error : " + err);
+       }
+       //remove the selection range (Chrome throws a warning if we don't.)
+       window.getSelection().removeRange(CopyRange);
+       //remove the hidden div
+       document.body.removeChild(hiddenCopy);
+   
+       //return the old selection range
+       if(currentRange)
+       {
+            window.getSelection().addRange(currentRange);
+       }
+  }
+  </script>
+
+ 
+      
+ <!-----------cate products--------------->   
+ <section id="cateproducts">
+  <div class="container text-center">
+    
+    <div class="social-icons">
+      <div class="col-md-12">
+      <a href="https://catecoin.com/"><img src="images/catelogosquare.png"></a>
+      <a href="https://wallet.catecoin.club/"><img src="images/cryptowallet.png"></a>
+      <a href="https://stake.catecoin.club/"><img src="images/catestaking.png"></a>
+      <a href="https://play.catecoin.club/"><img src="images/playtoearn.png"></a>
+      <a href="https://pancakeswap.finance/swap#/swap?outputCurrency=0xE4FAE3Faa8300810C835970b9187c268f55D998F"><img src="images/catebuy.png"></a>
+     
+      
+    </div>
+  </div>
+</div>
+
+  </section>
+
+
+    <section id="catpay">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-12">
+        
+        <h4 class="aboutus">CATPAY</h4>
+      </div>
+    
+      
+      <div class="col-md-6">
+        <h1 class="aboutus1">Catpay aims to be one of the top payment method for different dApps. It will be soon integrated into a growing number of dApps that Cate team is developing that will use Catpay as a payment and reward.</h1>
+        <h1 class="aboutus2">Catpay and Catecoin team already completed the development of Crypto payment systems where anyone can pay and receive crypto with ease. As the world continues to adopt crypto currency, this type of payment will become more popular in the near future.
+        </h1>
+    
+          <h1 class="aboutus2">Investors can earn Catpay passively by Staking their Catpay. While those who love games can earn CatPay by playing Rise of Cats (a play-to-earn game that the Cate/Catpay team developed). The game also offers NFT staking, where you can stake your NFTs and earn catpay as a reward.</h1>
+  
+      
+         
+    
+          <h1 class="aboutus3">0x0611686a2558de495617685b3da12448657170fe</h1>
+          <h4 class="aboutus4">-CATpay Contract Address</h4>
+          <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+              <p><button onclick="AdvancedCopy1()" class="cabtn2">COPY CONTRACT ADDRESS</button></p>
+              
+          </div>
+          </div>
+      </div>
+      </div>
+      <div class="col-md-6">
+        <div class="buttons">
+          <img src="images/catpaylogo.png" class="aboutimage">
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    </section>
+  
+  <script>
+    function AdvancedCopy1(){
+         //the text that is to be copied to the clipboard
+         var theText = '0x0611686a2558de495617685b3da12448657170fe';
+     
+         //create our hidden div element
+         var hiddenCopy = document.createElement('div');
+         //set the innerHTML of the div
+         hiddenCopy.innerHTML = theText;
+         //set the position to be absolute and off the screen
+         hiddenCopy.style.position = 'absolute';
+         hiddenCopy.style.left = '-9999px';
+     
+         //check and see if the user had a text selection range
+         var currentRange;
+         if(document.getSelection().rangeCount > 0)
+         {
+              //the user has a text selection range, store it
+              currentRange = document.getSelection().getRangeAt(0);
+              //remove the current selection
+              window.getSelection().removeRange(currentRange);
+         }
+         else
+         {
+              //they didn't have anything selected
+              currentRange = false;
+         }
+     
+         //append the div to the body
+         document.body.appendChild(hiddenCopy);
+         //create a selection range
+         var CopyRange = document.createRange();
+         //set the copy range to be the hidden div
+         CopyRange.selectNode(hiddenCopy);
+         //add the copy range
+         window.getSelection().addRange(CopyRange);
+     
+         //since not all browsers support this, use a try block
+         try
+         {
+              //copy the text
+              document.execCommand('copy');
+         }
+         catch(err)
+         {
+              window.alert("Your Browser Doesn't support this! Error : " + err);
+         }
+         //remove the selection range (Chrome throws a warning if we don't.)
+         window.getSelection().removeRange(CopyRange);
+         //remove the hidden div
+         document.body.removeChild(hiddenCopy);
+     
+         //return the old selection range
+         if(currentRange)
+         {
+              window.getSelection().addRange(currentRange);
+         }
+    }
+    </script>
+  
+   
+        
+   <!-----------cate products--------------->   
+   <section id="cateproducts">
+    <div class="container text-center">
+      
+      <div class="social-icons">
+        <div class="col-md-12">
+        <a href="https://catpay.io/"><img src="images/catpaywebsite.png"></a>
+        <a href="https://catpay.io/catecoin"><img src="images/cryptopay.png"></a>
+        <a href="https://catecoin.com/staking/"><img src="images/catpaystaking.png"></a>
+        <a href="https://play.catecoin.club/"><img src="images/catpayplay.png"></a>
+        <a href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x0611686a2558de495617685b3da12448657170fe"><img src="images/catpaybuy.png"></a>
+        
+      </div>
+    </div>
+  </div>
+  
+    </section>
+
+
+
+
+<!-----------Burn--------------->
+
+<section id="burn">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+      <h4 class="why1">BURNED TOKENS</h4>
+    </div>
+  <div class="col-md-12">
+    <h1 class="comingsoon">This section will be updated once a successful transaction is made.</h1>
+      <h2 class="ancpercent">You can verify all buyback and burn transactions in this section. Any transaction history will be posted here, including their BSCscan links.</h2>
+
+    </div>
+    </div>
+  </div>
+</section>
+
+ <!-----------social--------------->   
+  <section id="socials">
+    <div class="container text-center">
+      <p class="calendartext">AS SEEN ON:</p>
+      <div class="calendar-icons">
+        <div class="col-md-12">
+        <a href="https://launchmynft.io/collections/0xc18Bbe56e9bFd63dCF1609288e855B9974db823B/FEuaZe87204iyOU89Cao"><img src="images/LMNFT.png"></a>
+        <a href="https://nftcalendar.io/"><img src="images/nftcalendar.svg"></a>
+        <a href="#"><img src="images/nftwatcher.png"></a>
+        <a href="#"><img src="images/nestree.png"></a>
+        </div>
+     
+    </div>
+  </div>
+    </section>
+<!-----------FOOTER--------------->   
+    <section id="arsbg">
+      <div class="container">
+        <div class="row">
+
+    <div class="col-md-12">
+        <h1 class="ars"><img src="images/catearmylogo.png" class="metamask"> CateArmy © 2023. All rights reserved. </h1>
+</section>
+</section>
+
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script> 
+
+</body>
+
+</html>
